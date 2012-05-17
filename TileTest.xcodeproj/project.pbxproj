@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2D36BD15657A710045CE1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D36BC15657A710045CE1E /* UIKit.framework */; };
+		DD2D36BF15657A710045CE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D36BE15657A710045CE1E /* Foundation.framework */; };
+		DD2D36C115657A710045CE1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D36C015657A710045CE1E /* CoreGraphics.framework */; };
+		DD2D36C715657A710045CE1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD2D36C515657A710045CE1E /* InfoPlist.strings */; };
+		DD2D36C915657A710045CE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D36C815657A710045CE1E /* main.m */; };
+		DD2D36CD15657A710045CE1E /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D36CC15657A710045CE1E /* TTAppDelegate.m */; };
+		DD2D36D015657A710045CE1E /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D36CF15657A710045CE1E /* TTViewController.m */; };
+		DD2D36D315657A710045CE1E /* TTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D36D115657A710045CE1E /* TTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD2D36B815657A710045CE1E /* TileTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2D36BC15657A710045CE1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD2D36BE15657A710045CE1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD2D36C015657A710045CE1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD2D36C415657A710045CE1E /* TileTest-Info.plist */ = {isa = PBXFileReference; path = "TileTest-Info.plist"; sourceTree = "<group>"; };
+		DD2D36C615657A710045CE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD2D36C815657A710045CE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD2D36CA15657A710045CE1E /* TileTest-Prefix.pch */ = {isa = PBXFileReference; path = "TileTest-Prefix.pch"; sourceTree = "<group>"; };
+		DD2D36CB15657A710045CE1E /* TTAppDelegate.h */ = {isa = PBXFileReference; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		DD2D36CC15657A710045CE1E /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		DD2D36CE15657A710045CE1E /* TTViewController.h */ = {isa = PBXFileReference; path = TTViewController.h; sourceTree = "<group>"; };
+		DD2D36CF15657A710045CE1E /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		DD2D36D215657A710045CE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2D36B515657A710045CE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2D36BD15657A710045CE1E /* UIKit.framework in Frameworks */,
+				DD2D36BF15657A710045CE1E /* Foundation.framework in Frameworks */,
+				DD2D36C115657A710045CE1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2D36AD15657A710045CE1E = {
+			isa = PBXGroup;
+			children = (
+				DD2D36C215657A710045CE1E /* TileTest */,
+				DD2D36BB15657A710045CE1E /* Frameworks */,
+				DD2D36B915657A710045CE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2D36B915657A710045CE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D36B815657A710045CE1E /* TileTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2D36BB15657A710045CE1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D36BC15657A710045CE1E /* UIKit.framework */,
+				DD2D36BE15657A710045CE1E /* Foundation.framework */,
+				DD2D36C015657A710045CE1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2D36C215657A710045CE1E /* TileTest */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D36CB15657A710045CE1E /* TTAppDelegate.h */,
+				DD2D36CC15657A710045CE1E /* TTAppDelegate.m */,
+				DD2D36CE15657A710045CE1E /* TTViewController.h */,
+				DD2D36CF15657A710045CE1E /* TTViewController.m */,
+				DD2D36D115657A710045CE1E /* TTViewController.xib */,
+				DD2D36C315657A710045CE1E /* Supporting Files */,
+			);
+			path = TileTest;
+			sourceTree = "<group>";
+		};
+		DD2D36C315657A710045CE1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D36C415657A710045CE1E /* TileTest-Info.plist */,
+				DD2D36C515657A710045CE1E /* InfoPlist.strings */,
+				DD2D36C815657A710045CE1E /* main.m */,
+				DD2D36CA15657A710045CE1E /* TileTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2D36B715657A710045CE1E /* TileTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2D36D615657A710045CE1E /* Build configuration list for PBXNativeTarget "TileTest" */;
+			buildPhases = (
+				DD2D36B415657A710045CE1E /* Sources */,
+				DD2D36B515657A710045CE1E /* Frameworks */,
+				DD2D36B615657A710045CE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TileTest;
+			productName = TileTest;
+			productReference = DD2D36B815657A710045CE1E /* TileTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2D36AF15657A710045CE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "MapBox / Development Seed";
+			};
+			buildConfigurationList = DD2D36B215657A710045CE1E /* Build configuration list for PBXProject "TileTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD2D36AD15657A710045CE1E;
+			productRefGroup = DD2D36B915657A710045CE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2D36B715657A710045CE1E /* TileTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2D36B615657A710045CE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2D36C715657A710045CE1E /* InfoPlist.strings in Resources */,
+				DD2D36D315657A710045CE1E /* TTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2D36B415657A710045CE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2D36C915657A710045CE1E /* main.m in Sources */,
+				DD2D36CD15657A710045CE1E /* TTAppDelegate.m in Sources */,
+				DD2D36D015657A710045CE1E /* TTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD2D36C515657A710045CE1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D36C615657A710045CE1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD2D36D115657A710045CE1E /* TTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D36D215657A710045CE1E /* en */,
+			);
+			name = TTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2D36D415657A710045CE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DD2D36D515657A710045CE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2D36D715657A710045CE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TileTest/TileTest-Prefix.pch";
+				INFOPLIST_FILE = "TileTest/TileTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD2D36D815657A710045CE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TileTest/TileTest-Prefix.pch";
+				INFOPLIST_FILE = "TileTest/TileTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2D36B215657A710045CE1E /* Build configuration list for PBXProject "TileTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2D36D415657A710045CE1E /* Debug */,
+				DD2D36D515657A710045CE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2D36D615657A710045CE1E /* Build configuration list for PBXNativeTarget "TileTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2D36D715657A710045CE1E /* Debug */,
+				DD2D36D815657A710045CE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2D36AF15657A710045CE1E /* Project object */;
+}
