@@ -1,5 +1,5 @@
 //
-//  TTViewController.h
+//  TTTileView.h
 //  TileTest
 //
 //  Created by Justin Miller on 5/17/12.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTViewController : UIViewController
+@interface TTTileView : UIView
+
+- (id)initWithFrame:(CGRect)frame image:(UIImage *)image;
 
 @end

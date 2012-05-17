@@ -14,7 +14,11 @@
 		DD2D36C915657A710045CE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D36C815657A710045CE1E /* main.m */; };
 		DD2D36CD15657A710045CE1E /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D36CC15657A710045CE1E /* TTAppDelegate.m */; };
 		DD2D36D015657A710045CE1E /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D36CF15657A710045CE1E /* TTViewController.m */; };
-		DD2D36D315657A710045CE1E /* TTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D36D115657A710045CE1E /* TTViewController.xib */; };
+		DD2D36DB15657F9F0045CE1E /* TTTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D36DA15657F9F0045CE1E /* TTTileView.m */; };
+		DD2D36DD1565802D0045CE1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D36DC1565802D0045CE1E /* QuartzCore.framework */; };
+		DD2D36DF156584150045CE1E /* forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD2D36DE156584150045CE1E /* forest.jpg */; };
+		DD2D36E1156584600045CE1E /* orchid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD2D36E0156584600045CE1E /* orchid.jpg */; };
+		DD2D36E3156585C30045CE1E /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD2D36E2156585C30045CE1E /* rose.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,20 @@
 		DD2D36BC15657A710045CE1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD2D36BE15657A710045CE1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD2D36C015657A710045CE1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DD2D36C415657A710045CE1E /* TileTest-Info.plist */ = {isa = PBXFileReference; path = "TileTest-Info.plist"; sourceTree = "<group>"; };
+		DD2D36C415657A710045CE1E /* TileTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TileTest-Info.plist"; sourceTree = "<group>"; };
 		DD2D36C615657A710045CE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD2D36C815657A710045CE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD2D36CA15657A710045CE1E /* TileTest-Prefix.pch */ = {isa = PBXFileReference; path = "TileTest-Prefix.pch"; sourceTree = "<group>"; };
-		DD2D36CB15657A710045CE1E /* TTAppDelegate.h */ = {isa = PBXFileReference; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		DD2D36CA15657A710045CE1E /* TileTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TileTest-Prefix.pch"; sourceTree = "<group>"; };
+		DD2D36CB15657A710045CE1E /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
 		DD2D36CC15657A710045CE1E /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
-		DD2D36CE15657A710045CE1E /* TTViewController.h */ = {isa = PBXFileReference; path = TTViewController.h; sourceTree = "<group>"; };
+		DD2D36CE15657A710045CE1E /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
 		DD2D36CF15657A710045CE1E /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
-		DD2D36D215657A710045CE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTViewController.xib; sourceTree = "<group>"; };
+		DD2D36D915657F9F0045CE1E /* TTTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTileView.h; sourceTree = "<group>"; };
+		DD2D36DA15657F9F0045CE1E /* TTTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTileView.m; sourceTree = "<group>"; };
+		DD2D36DC1565802D0045CE1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD2D36DE156584150045CE1E /* forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forest.jpg; sourceTree = "<group>"; };
+		DD2D36E0156584600045CE1E /* orchid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orchid.jpg; sourceTree = "<group>"; };
+		DD2D36E2156585C30045CE1E /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2D36BD15657A710045CE1E /* UIKit.framework in Frameworks */,
-				DD2D36BF15657A710045CE1E /* Foundation.framework in Frameworks */,
 				DD2D36C115657A710045CE1E /* CoreGraphics.framework in Frameworks */,
+				DD2D36BF15657A710045CE1E /* Foundation.framework in Frameworks */,
+				DD2D36DD1565802D0045CE1E /* QuartzCore.framework in Frameworks */,
+				DD2D36BD15657A710045CE1E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,9 +77,10 @@
 		DD2D36BB15657A710045CE1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD2D36BC15657A710045CE1E /* UIKit.framework */,
-				DD2D36BE15657A710045CE1E /* Foundation.framework */,
 				DD2D36C015657A710045CE1E /* CoreGraphics.framework */,
+				DD2D36BE15657A710045CE1E /* Foundation.framework */,
+				DD2D36DC1565802D0045CE1E /* QuartzCore.framework */,
+				DD2D36BC15657A710045CE1E /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,7 +92,11 @@
 				DD2D36CC15657A710045CE1E /* TTAppDelegate.m */,
 				DD2D36CE15657A710045CE1E /* TTViewController.h */,
 				DD2D36CF15657A710045CE1E /* TTViewController.m */,
-				DD2D36D115657A710045CE1E /* TTViewController.xib */,
+				DD2D36D915657F9F0045CE1E /* TTTileView.h */,
+				DD2D36DA15657F9F0045CE1E /* TTTileView.m */,
+				DD2D36DE156584150045CE1E /* forest.jpg */,
+				DD2D36E0156584600045CE1E /* orchid.jpg */,
+				DD2D36E2156585C30045CE1E /* rose.jpg */,
 				DD2D36C315657A710045CE1E /* Supporting Files */,
 			);
 			path = TileTest;
@@ -151,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2D36C715657A710045CE1E /* InfoPlist.strings in Resources */,
-				DD2D36D315657A710045CE1E /* TTViewController.xib in Resources */,
+				DD2D36DF156584150045CE1E /* forest.jpg in Resources */,
+				DD2D36E1156584600045CE1E /* orchid.jpg in Resources */,
+				DD2D36E3156585C30045CE1E /* rose.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +182,7 @@
 				DD2D36C915657A710045CE1E /* main.m in Sources */,
 				DD2D36CD15657A710045CE1E /* TTAppDelegate.m in Sources */,
 				DD2D36D015657A710045CE1E /* TTViewController.m in Sources */,
+				DD2D36DB15657F9F0045CE1E /* TTTileView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +195,6 @@
 				DD2D36C615657A710045CE1E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DD2D36D115657A710045CE1E /* TTViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD2D36D215657A710045CE1E /* en */,
-			);
-			name = TTViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +288,7 @@
 				DD2D36D815657A710045CE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
